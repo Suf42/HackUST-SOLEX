@@ -1,0 +1,17 @@
+//AccountState::AccountState() {
+//    Login newUser;
+//    newUser.AddAccount();
+//    address = newUser.getuser();
+//    unsigned int nonce = 0;
+//    double balance = 0;
+  
+    /*
+    store the 5 datum
+    {string address 
+    unsigned int nonce 
+    double balance 
+    string storageRoot
+    string codeHash}
+    in a separate file called Worldstate.txt
+    */
+//}

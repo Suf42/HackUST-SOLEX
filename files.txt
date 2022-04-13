@@ -1,0 +1,30 @@
+string accinfo = "/Users/mohammad-sufian/Documents/Hackathon/acountinfo.txt";
+Login.cpp
+16     fin.open("/Users/mohammad-sufian/Documents/Hackathon/acountinfo.txt");
+56     fin.open("accountinfo.txt");
+105    fon.open("accountinfo.txt",fstream::app);
+
+string wrldstate = "/Users/mohammad-sufian/Documents/Hackathon/Worldstate.txt";
+string temp = "/Users/mohammad-sufian/Documents/Hackathon/temp.txt";
+string blckchain = "/Users/mohammad-sufian/Documents/Hackathon/Blockchain.txt";
+main.cpp
+34     fin.open("/Users/mohammad-sufian/Documents/Hackathon/Worldstate.txt");
+75     fin.open("/Users/mohammad-sufian/Documents/Hackathon/Worldstate.txt");
+111    fin.open("/Users/mohammad-sufian/Documents/Hackathon/Worldstate.txt");
+145    fin.open("/Users/mohammad-sufian/Documents/Hackathon/Worldstate.txt");
+146    fon.open("/Users/mohammad-sufian/Documents/Hackathon/temp.txt");
+184    remove("/Users/mohammad-sufian/Documents/Hackathon/Blockchain.txt");
+185    rename("/Users/mohammad-sufian/Documents/Hackathon/temp.txt","/Users/mohammad-sufian/Documents/Hackathon/Blockchain.txt");
+198    fin.open("/Users/mohammad-sufian/Documents/Hackathon/Worldstate.txt");
+199    fon.open("/Users/mohammad-sufian/Documents/Hackathon/temp.txt");
+285    remove("/Users/mohammad-sufian/Documents/Hackathon/Worldstate.txt");
+286    rename("/Users/mohammad-sufian/Documents/Hackathon/temp.txt","/Users/mohammad-sufian/Documents/Hackathon/Worldstate.txt");
+299    fin.open("/Users/mohammad-sufian/Documents/Hackathon/Worldstate.txt");
+300    fon.open("/Users/mohammad-sufian/Documents/Hackathon/temp.txt");
+386    remove("/Users/mohammad-sufian/Documents/Hackathon/Worldstate.txt");
+387    rename("/Users/mohammad-sufian/Documents/Hackathon/temp.txt","/Users/mohammad-sufian/Documents/Hackathon/Worldstate.txt");
+
+string wrldstate = "/Users/mohammad-sufian/Documents/Hackathon/Worldstate.txt"
+Worldstate.cpp
+50     fon.open("Worldstate.txt",fstream::app);
+74     fon.open("Worldstate.txt",fstream::app);
